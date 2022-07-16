@@ -42,6 +42,8 @@ export default function SearchList() {
               <th>ID</th>
               <th>Level ID</th>
               <th>Punkty</th>
+              <th>Finish time</th>
+              <th>Score premium</th>
               <th>Name</th>
               <th>Photo</th>
             </tr>
@@ -55,6 +57,8 @@ export default function SearchList() {
                 <td>{userData.id}</td>
                 <td>{userData.level_id}</td>
                 <td>{userData.score_primary}</td>
+                <td>{userData.finish_time}</td>
+                <td>{userData.score_premium}</td>
                 <td>{userData.user.nickname}</td>
                 <td>
                   {userData.user.profile_pic && 

@@ -14,3 +14,11 @@
     display: inline-block;
     padding: 10px;
 }
+
+.games-list li:hover {
+    cursor: pointer;
+}
+
+.checkbox-div label {
+    padding: 10px;
+}
